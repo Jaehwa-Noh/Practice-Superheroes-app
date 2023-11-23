@@ -56,6 +56,12 @@ Explore different padding and size options, as per the Material 3 guidelines, pa
 <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/e195a36e-4121-4692-aa1e-570ed54d62eb" width="300"/>
 
 ## Resources (재료)
+### Font (글꼴)
+[Font (글꼴)](https://fonts.google.com)
+
+### Image (이미지)
+[Image (이미지)](https://github.com/google-developer-training/basic-android-kotlin-compose-training-superheroes/raw/main/Image%20assets.zip)
+
 ### String (글)
 ```xml
 <resources>
