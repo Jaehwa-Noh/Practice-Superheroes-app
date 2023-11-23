@@ -347,3 +347,11 @@ fun SuperheroesTheme(
    )
 }
 ```
+
+
+# My Result (내 결과물)
+## Apps on device (프로젝트 실행 이미지)
+| Compose(light) | Compose(dark) | SwiftUI(light) |  SwiftUI(dark) |
+| :---------------: | :---------------: | :---------------: | :---------------: |
+<!--
+| <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/281fd192-a026-4205-9743-32b2079f5afb" width="300" /> | <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/a4934ac6-93c7-47ab-a5b9-10476a8ceb9a" width="300" /> | | | -->
