@@ -42,17 +42,21 @@ fun HeroPhoto(hero: Hero, modifier: Modifier = Modifier) {
 @Preview
 @Composable
 fun HeroesListPreview() {
-    HeroesList()
+    SuperherosTheme {
+        HeroesList()
+    }
 }
 
 @Preview
 @Composable
 fun HeroesListItemPreview() {
-    HeroesListItem(
-        Hero(
-            R.string.hero1,
-            R.string.description1,
-            R.drawable.android_superhero1
+    SuperherosTheme {
+        HeroesListItem(
+            Hero(
+                R.string.hero1,
+                R.string.description1,
+                R.drawable.android_superhero1
+            )
         )
-    )
+    }
 }
