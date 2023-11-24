@@ -26,15 +26,15 @@ import com.example.superheros.model.Hero
 import com.example.superheros.ui.theme.SuperherosTheme
 
 @Composable
-fun HeroesList(modifier: Modifier = Modifier) {
+fun HeroesList(modifier: Modifier = Modifier, contentPadding: PaddingValues) {
     LazyColumn(
         modifier = modifier,
-        contentPadding = PaddingValues(horizontal = 16.dp)
+        contentPadding = contentPadding
     ) {
         items(HeroesRepository.heroes) { hero ->
             HeroesListItem(
                 hero = hero,
-                modifier = Modifier.padding(vertical = 4.dp)
+                modifier = Modifier.padding(vertical = 4.dp, horizontal = 16.dp)
             )
         }
 
@@ -94,7 +94,7 @@ fun HeroPhoto(hero: Hero, modifier: Modifier = Modifier) {
 @Composable
 fun HeroesListPreview() {
     SuperherosTheme {
-        HeroesList()
+        HeroesList(contentPadding = PaddingValues(top = 16.dp))
     }
 }
 
