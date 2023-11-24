@@ -183,7 +183,7 @@ val md_theme_dark_outlineVariant = Color(0xFF45483D)
 val md_theme_dark_scrim = Color(0xFF000000)
 ```
 
-## Shape (모양)
+### Shape (모양)
 ```kotlin
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
@@ -196,7 +196,7 @@ val Shapes = Shapes(
 )
 ```
 
-## Typography (타이포그래피)
+### Typography (타이포그래피)
 ```kotlin
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
