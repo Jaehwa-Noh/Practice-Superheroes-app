@@ -39,11 +39,16 @@ fun HeroesApp(modifier: Modifier = Modifier) {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text(stringResource(id = R.string.app_name)) }
+                title = {
+                    Text(
+                        stringResource(id = R.string.app_name),
+                        style = MaterialTheme.typography.displayLarge
+                    )
+                }
             )
         },
         modifier = modifier
-    ) { it ->
+    ) {
         HeroesList(modifier = Modifier, contentPadding = it)
     }
 
