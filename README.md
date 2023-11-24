@@ -57,7 +57,7 @@ Explore different padding and size options, as per the Material 3 guidelines, pa
 
 ## Resources (재료)
 ### Font (글꼴)
-[Font (글꼴)](https://fonts.google.com)
+[Font (글꼴)](https://fonts.google.com) Carbin
 
 ### Image (이미지)
 [Image (이미지)](https://github.com/google-developer-training/basic-android-kotlin-compose-training-superheroes/raw/main/Image%20assets.zip)
