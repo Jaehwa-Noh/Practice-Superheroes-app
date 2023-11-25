@@ -13,6 +13,7 @@
 		CF66D10C2B1215640064EF34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */; };
 		CFAB7C0F2B121E2B00DA093B /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */; };
 		CFAB7C102B121E2B00DA093B /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */; };
+		CFAB7C152B12383500DA093B /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB7C142B12383500DA093B /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Regular.ttf"; sourceTree = "<group>"; };
 		CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.ttf"; sourceTree = "<group>"; };
 		CFAB7C112B1230B200DA093B /* Super-Heores-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Super-Heores-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CFAB7C142B12383500DA093B /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 		CF66D1032B1215640064EF34 /* Super Heores */ = {
 			isa = PBXGroup;
 			children = (
+				CFAB7C132B12380A00DA093B /* Model */,
+				CFAB7C122B12380100DA093B /* Data */,
 				CFAB7C112B1230B200DA093B /* Super-Heores-Info.plist */,
 				CFAB7C0A2B121D3900DA093B /* Project Fonts */,
 				CF66D1042B1215640064EF34 /* Super_HeoresApp.swift */,
@@ -81,6 +85,21 @@
 				CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */,
 			);
 			path = "Project Fonts";
+			sourceTree = "<group>";
+		};
+		CFAB7C122B12380100DA093B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CFAB7C132B12380A00DA093B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB7C142B12383500DA093B /* Hero.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +176,7 @@
 			files = (
 				CF66D1072B1215640064EF34 /* ContentView.swift in Sources */,
 				CF66D1052B1215640064EF34 /* Super_HeoresApp.swift in Sources */,
+				CFAB7C152B12383500DA093B /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
