@@ -57,7 +57,7 @@ Explore different padding and size options, as per the Material 3 guidelines, pa
 
 ## Resources (재료)
 ### Font (글꼴)
-[Font (글꼴)](https://fonts.google.com)
+[Font (글꼴)](https://fonts.google.com) Carbin
 
 ### Image (이미지)
 [Image (이미지)](https://github.com/google-developer-training/basic-android-kotlin-compose-training-superheroes/raw/main/Image%20assets.zip)
@@ -183,7 +183,7 @@ val md_theme_dark_outlineVariant = Color(0xFF45483D)
 val md_theme_dark_scrim = Color(0xFF000000)
 ```
 
-## Shape (모양)
+### Shape (모양)
 ```kotlin
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
@@ -196,7 +196,7 @@ val Shapes = Shapes(
 )
 ```
 
-## Typography (타이포그래피)
+### Typography (타이포그래피)
 ```kotlin
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
@@ -359,5 +359,4 @@ fun SuperheroesTheme(
 ## Apps on device (프로젝트 실행 이미지)
 | Compose(light) | Compose(dark) | SwiftUI(light) |  SwiftUI(dark) |
 | :---------------: | :---------------: | :---------------: | :---------------: |
-<!--
-| <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/281fd192-a026-4205-9743-32b2079f5afb" width="300" /> | <img src="https://github.com/shwoghk14/Practice-Build-a-grid/assets/48680511/a4934ac6-93c7-47ab-a5b9-10476a8ceb9a" width="300" /> | | | -->
+| <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/cf103fe9-2ca6-4983-bf95-dfce006778dc" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/4e91a5ea-8304-416f-bfad-df7a706e9e2a" width="300" /> |
