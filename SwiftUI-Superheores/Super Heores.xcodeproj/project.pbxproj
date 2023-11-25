@@ -23,6 +23,7 @@
 		CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Regular.ttf"; sourceTree = "<group>"; };
 		CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		CFAB7C112B1230B200DA093B /* Super-Heores-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Super-Heores-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		CF66D1032B1215640064EF34 /* Super Heores */ = {
 			isa = PBXGroup;
 			children = (
+				CFAB7C112B1230B200DA093B /* Super-Heores-Info.plist */,
 				CFAB7C0A2B121D3900DA093B /* Project Fonts */,
 				CF66D1042B1215640064EF34 /* Super_HeoresApp.swift */,
 				CF66D1062B1215640064EF34 /* ContentView.swift */,
@@ -291,6 +293,7 @@
 				DEVELOPMENT_TEAM = 6H64278R9T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Super-Heores-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +323,7 @@
 				DEVELOPMENT_TEAM = 6H64278R9T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Super-Heores-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
