@@ -11,6 +11,8 @@
 		CF66D1072B1215640064EF34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66D1062B1215640064EF34 /* ContentView.swift */; };
 		CF66D1092B1215640064EF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF66D1082B1215640064EF34 /* Assets.xcassets */; };
 		CF66D10C2B1215640064EF34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */; };
+		CFAB7C0F2B121E2B00DA093B /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */; };
+		CFAB7C102B121E2B00DA093B /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CF66D1062B1215640064EF34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF66D1082B1215640064EF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		CF66D1032B1215640064EF34 /* Super Heores */ = {
 			isa = PBXGroup;
 			children = (
+				CFAB7C0A2B121D3900DA093B /* Project Fonts */,
 				CF66D1042B1215640064EF34 /* Super_HeoresApp.swift */,
 				CF66D1062B1215640064EF34 /* ContentView.swift */,
 				CF66D1082B1215640064EF34 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFAB7C0A2B121D3900DA093B /* Project Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */,
+				CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */,
+			);
+			path = "Project Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF66D10C2B1215640064EF34 /* Preview Assets.xcassets in Resources */,
+				CFAB7C102B121E2B00DA093B /* Cabin-Bold.ttf in Resources */,
 				CF66D1092B1215640064EF34 /* Assets.xcassets in Resources */,
+				CFAB7C0F2B121E2B00DA093B /* Cabin-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
