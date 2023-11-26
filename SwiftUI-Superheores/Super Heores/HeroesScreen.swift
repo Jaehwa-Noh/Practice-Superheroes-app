@@ -14,8 +14,16 @@ struct HeroesScreen: View {
 }
 
 struct HeroesList: View {
+    let heroes = HeroesRepository().heroes
     var body: some View {
-        Text("")
+        ScrollView {
+            LazyVStack(spacing: 8) {
+                ForEach(heroes) { hero in
+                    HeroesListItem(hero: hero)
+                }
+            }
+            .padding(.horizontal, 16)
+        }
     }
 }
 
@@ -53,5 +61,5 @@ struct HeroesListItem: View {
 }
 
 #Preview {
-    HeroesListItem(hero: HeroesRepository().heroes.first!)
+    HeroesList()
 }
