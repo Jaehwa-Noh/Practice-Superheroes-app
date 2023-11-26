@@ -359,7 +359,8 @@ fun SuperheroesTheme(
 ## Apps on device (프로젝트 실행 이미지)
 | Compose(light) | Compose(dark) | SwiftUI(light) |  SwiftUI(dark) |
 | :---------------: | :---------------: | :---------------: | :---------------: |
-| <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/cf103fe9-2ca6-4983-bf95-dfce006778dc" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/4e91a5ea-8304-416f-bfad-df7a706e9e2a" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/8654432d-b416-4bdf-8db9-1e79089c6018" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/1796455f-c9c7-4402-965d-c93d80da1289" width="300" /> |
+| <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/cf103fe9-2ca6-4983-bf95-dfce006778dc" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/4e91a5ea-8304-416f-bfad-df7a706e9e2a" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/5a744f67-527c-4e0f-af62-919fb1543839" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/d5135240-1f1d-4354-b094-2aca723228f8" width="300" /> |
+
 
 <!--
 <img src="" width="300" />
