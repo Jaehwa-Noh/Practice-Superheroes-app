@@ -10,9 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            ScrollView {
-                
-            }
+            HeroesList()
             .navigationTitle("Superheroes")
             .navigationBarTitleDisplayMode(.large)
         }
