@@ -34,6 +34,7 @@ struct HeroesListItem: View {
                 }
                 HStack(spacing: 0) {
                     Text(hero.description)
+                        .font(Font.custom("Cabin-Regular", size: 16, relativeTo: .callout))
                     Spacer(minLength: 0)
                 }
             }
