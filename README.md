@@ -7,7 +7,7 @@ This main branch is the main directory.
 there are 2 additional branchs for 1 practice, Compose and SwiftUI.   
    
 • [Compose branch](https://github.com/Jaehwa-Noh/Practice-Superheroes-app/tree/compose-superheros)   
-• SwiftUI branch
+• [SwiftUI branch](https://github.com/Jaehwa-Noh/Practice-Superheroes-app/tree/swiftui-superheroes)
  
 ---
 연습이 장인을 만든다.   
@@ -16,7 +16,7 @@ there are 2 additional branchs for 1 practice, Compose and SwiftUI.
 1개의 연습에 해당하는 추가적인 Compose와 SwiftUI에 해당하는 2개의 브랜치가 있습니다.   
    
 • [컴포우즈 브랜치](https://github.com/Jaehwa-Noh/Practice-Superheroes-app/tree/compose-superheros)   
-• 스위프트유아이 브랜치
+• [스위프트유아이 브랜치](https://github.com/Jaehwa-Noh/Practice-Superheroes-app/tree/swiftui-superheroes)
 
 
 ## UI specifications (UI 명세서)
@@ -57,7 +57,7 @@ Explore different padding and size options, as per the Material 3 guidelines, pa
 
 ## Resources (재료)
 ### Font (글꼴)
-[Font (글꼴)](https://fonts.google.com) Carbin
+[Font (글꼴)](https://fonts.google.com) Cabin
 
 ### Image (이미지)
 [Image (이미지)](https://github.com/google-developer-training/basic-android-kotlin-compose-training-superheroes/raw/main/Image%20assets.zip)
@@ -359,4 +359,8 @@ fun SuperheroesTheme(
 ## Apps on device (프로젝트 실행 이미지)
 | Compose(light) | Compose(dark) | SwiftUI(light) |  SwiftUI(dark) |
 | :---------------: | :---------------: | :---------------: | :---------------: |
-| <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/cf103fe9-2ca6-4983-bf95-dfce006778dc" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/4e91a5ea-8304-416f-bfad-df7a706e9e2a" width="300" /> |
+| <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/cf103fe9-2ca6-4983-bf95-dfce006778dc" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/4e91a5ea-8304-416f-bfad-df7a706e9e2a" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/8654432d-b416-4bdf-8db9-1e79089c6018" width="300" /> | <img src="https://github.com/Jaehwa-Noh/Practice-Superheroes-app/assets/48680511/1796455f-c9c7-4402-965d-c93d80da1289" width="300" /> |
+
+<!--
+<img src="" width="300" />
+-->

@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF66D1052B1215640064EF34 /* Super_HeoresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66D1042B1215640064EF34 /* Super_HeoresApp.swift */; };
+		CF66D1072B1215640064EF34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66D1062B1215640064EF34 /* ContentView.swift */; };
+		CF66D1092B1215640064EF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF66D1082B1215640064EF34 /* Assets.xcassets */; };
+		CF66D10C2B1215640064EF34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */; };
+		CFAB7C0F2B121E2B00DA093B /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */; };
+		CFAB7C102B121E2B00DA093B /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */; };
+		CFAB7C152B12383500DA093B /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB7C142B12383500DA093B /* Hero.swift */; };
+		CFAB7C172B12393500DA093B /* HeroesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB7C162B12393500DA093B /* HeroesRepository.swift */; };
+		CFD9AD542B12D625005924A1 /* HeroesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9AD532B12D625005924A1 /* HeroesScreen.swift */; };
+		CFD9AD562B12DE4C005924A1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD9AD552B12DE4C005924A1 /* Colors.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF66D1012B1215640064EF34 /* Super Heores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Heores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF66D1042B1215640064EF34 /* Super_HeoresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_HeoresApp.swift; sourceTree = "<group>"; };
+		CF66D1062B1215640064EF34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF66D1082B1215640064EF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		CFAB7C112B1230B200DA093B /* Super-Heores-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Super-Heores-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CFAB7C142B12383500DA093B /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		CFAB7C162B12393500DA093B /* HeroesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRepository.swift; sourceTree = "<group>"; };
+		CFD9AD532B12D625005924A1 /* HeroesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesScreen.swift; sourceTree = "<group>"; };
+		CFD9AD552B12DE4C005924A1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF66D0FE2B1215630064EF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF66D0F82B1215630064EF34 = {
+			isa = PBXGroup;
+			children = (
+				CF66D1032B1215640064EF34 /* Super Heores */,
+				CF66D1022B1215640064EF34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF66D1022B1215640064EF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF66D1012B1215640064EF34 /* Super Heores.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF66D1032B1215640064EF34 /* Super Heores */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB7C132B12380A00DA093B /* Model */,
+				CFAB7C122B12380100DA093B /* Data */,
+				CFAB7C112B1230B200DA093B /* Super-Heores-Info.plist */,
+				CFAB7C0A2B121D3900DA093B /* Project Fonts */,
+				CF66D1042B1215640064EF34 /* Super_HeoresApp.swift */,
+				CF66D1062B1215640064EF34 /* ContentView.swift */,
+				CFD9AD532B12D625005924A1 /* HeroesScreen.swift */,
+				CF66D1082B1215640064EF34 /* Assets.xcassets */,
+				CFD9AD552B12DE4C005924A1 /* Colors.xcassets */,
+				CF66D10A2B1215640064EF34 /* Preview Content */,
+			);
+			path = "Super Heores";
+			sourceTree = "<group>";
+		};
+		CF66D10A2B1215640064EF34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF66D10B2B1215640064EF34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFAB7C0A2B121D3900DA093B /* Project Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */,
+				CFAB7C0D2B121E2B00DA093B /* Cabin-Regular.ttf */,
+			);
+			path = "Project Fonts";
+			sourceTree = "<group>";
+		};
+		CFAB7C122B12380100DA093B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB7C162B12393500DA093B /* HeroesRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CFAB7C132B12380A00DA093B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB7C142B12383500DA093B /* Hero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF66D1002B1215630064EF34 /* Super Heores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF66D10F2B1215640064EF34 /* Build configuration list for PBXNativeTarget "Super Heores" */;
+			buildPhases = (
+				CF66D0FD2B1215630064EF34 /* Sources */,
+				CF66D0FE2B1215630064EF34 /* Frameworks */,
+				CF66D0FF2B1215630064EF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Super Heores";
+			productName = "Super Heores";
+			productReference = CF66D1012B1215640064EF34 /* Super Heores.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF66D0F92B1215630064EF34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CF66D1002B1215630064EF34 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CF66D0FC2B1215630064EF34 /* Build configuration list for PBXProject "Super Heores" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF66D0F82B1215630064EF34;
+			productRefGroup = CF66D1022B1215640064EF34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF66D1002B1215630064EF34 /* Super Heores */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF66D0FF2B1215630064EF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD9AD562B12DE4C005924A1 /* Colors.xcassets in Resources */,
+				CF66D10C2B1215640064EF34 /* Preview Assets.xcassets in Resources */,
+				CFAB7C102B121E2B00DA093B /* Cabin-Bold.ttf in Resources */,
+				CF66D1092B1215640064EF34 /* Assets.xcassets in Resources */,
+				CFAB7C0F2B121E2B00DA093B /* Cabin-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF66D0FD2B1215630064EF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF66D1072B1215640064EF34 /* ContentView.swift in Sources */,
+				CF66D1052B1215640064EF34 /* Super_HeoresApp.swift in Sources */,
+				CFAB7C152B12383500DA093B /* Hero.swift in Sources */,
+				CFD9AD542B12D625005924A1 /* HeroesScreen.swift in Sources */,
+				CFAB7C172B12393500DA093B /* HeroesRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF66D10D2B1215640064EF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF66D10E2B1215640064EF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF66D1102B1215640064EF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Super Heores/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H64278R9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Super-Heores-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.sample.Super-Heores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF66D1112B1215640064EF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Super Heores/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H64278R9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Super-Heores-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.sample.Super-Heores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF66D0FC2B1215630064EF34 /* Build configuration list for PBXProject "Super Heores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF66D10D2B1215640064EF34 /* Debug */,
+				CF66D10E2B1215640064EF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF66D10F2B1215640064EF34 /* Build configuration list for PBXNativeTarget "Super Heores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF66D1102B1215640064EF34 /* Debug */,
+				CF66D1112B1215640064EF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF66D0F92B1215630064EF34 /* Project object */;
+}
