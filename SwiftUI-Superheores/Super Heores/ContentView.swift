@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             HeroesList()
             .navigationTitle("Superheroes")
             .navigationBarTitleDisplayMode(.large)
         }
-        
-        
     }
 }
 
