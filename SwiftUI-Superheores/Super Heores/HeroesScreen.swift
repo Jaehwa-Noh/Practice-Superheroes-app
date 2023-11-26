@@ -29,13 +29,16 @@ struct HeroesListItem: View {
             VStack(spacing: 0) {
                 HStack(spacing: 0) {
                     Text(hero.name)
+                        .font(Font.custom("Cabin-Bold", size: 20, relativeTo: .largeTitle))
                     Spacer(minLength: 0)
                 }
                 HStack(spacing: 0) {
                     Text(hero.description)
+                        .font(Font.custom("Cabin-Regular", size: 16, relativeTo: .callout))
                     Spacer(minLength: 0)
                 }
             }
+            .frame(height: 72)
             
             Image(hero.imageResourceName)
                 .resizable()
@@ -46,6 +49,7 @@ struct HeroesListItem: View {
         .background(
             RoundedRectangle(cornerRadius: 16.0)
                 .fill(Color("CardColor"))
+                .shadow(radius: 2)
         )
     }
 }
