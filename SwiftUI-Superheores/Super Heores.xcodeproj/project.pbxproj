@@ -15,6 +15,7 @@
 		CFAB7C102B121E2B00DA093B /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAB7C0E2B121E2B00DA093B /* Cabin-Bold.ttf */; };
 		CFAB7C152B12383500DA093B /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB7C142B12383500DA093B /* Hero.swift */; };
 		CFAB7C172B12393500DA093B /* HeroesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB7C162B12393500DA093B /* HeroesRepository.swift */; };
+		CFD9AD562B12DE4C005924A1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD9AD552B12DE4C005924A1 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CFAB7C112B1230B200DA093B /* Super-Heores-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Super-Heores-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CFAB7C142B12383500DA093B /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		CFAB7C162B12393500DA093B /* HeroesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRepository.swift; sourceTree = "<group>"; };
+		CFD9AD552B12DE4C005924A1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CF66D1042B1215640064EF34 /* Super_HeoresApp.swift */,
 				CF66D1062B1215640064EF34 /* ContentView.swift */,
 				CF66D1082B1215640064EF34 /* Assets.xcassets */,
+				CFD9AD552B12DE4C005924A1 /* Colors.xcassets */,
 				CF66D10A2B1215640064EF34 /* Preview Content */,
 			);
 			path = "Super Heores";
@@ -163,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD9AD562B12DE4C005924A1 /* Colors.xcassets in Resources */,
 				CF66D10C2B1215640064EF34 /* Preview Assets.xcassets in Resources */,
 				CFAB7C102B121E2B00DA093B /* Cabin-Bold.ttf in Resources */,
 				CF66D1092B1215640064EF34 /* Assets.xcassets in Resources */,
@@ -239,7 +243,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -297,7 +300,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
