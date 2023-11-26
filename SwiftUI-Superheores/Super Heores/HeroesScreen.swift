@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct HeroesScreen: View {
-    var body: some View {
-        Text("")
-    }
-}
-
 struct HeroesList: View {
     let heroes = HeroesRepository().heroes
     var body: some View {
