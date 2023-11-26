@@ -48,6 +48,7 @@ struct HeroesListItem: View {
             RoundedRectangle(cornerRadius: 16.0)
                 .fill(Color("CardColor"))
         )
+        .shadow(radius: 2)
     }
 }
 
