@@ -13,6 +13,7 @@ struct ContentView: View {
             HeroesList()
             .navigationTitle("Superheroes")
             .navigationBarTitleDisplayMode(.large)
+            .background(Color("BackgroundColor"))
         }
     }
 }
