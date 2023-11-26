@@ -36,6 +36,7 @@ struct HeroesListItem: View {
                     Spacer(minLength: 0)
                 }
             }
+            .frame(height: 72)
             
             Image(hero.imageResourceName)
                 .resizable()
